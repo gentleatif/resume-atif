@@ -1,38 +1,41 @@
-import React from "react";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import React from 'react';
+// import FaFacebook from '@mui/icons-material/Facebook';
+// import TwitterIcon from '@mui/icons-material/Twitter';
+// import GitHubIcon from '@mui/icons-material/GitHub';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
+import { FaFacebook, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
+
 function SocialSidebar(params) {
   return (
     <div className={params.customClass}>
       <div>
         <a
-          rel="noreferrer"
-          target="_blank"
-          href="https://www.linkedin.com/in/atif-hussain-1734bb188/"
+          rel='noreferrer'
+          target='_blank'
+          href='https://www.linkedin.com/in/gentleatif'
         >
-          <LinkedInIcon />
+          <FaLinkedin />
         </a>
       </div>
       <div>
         <a
-          rel="noreferrer"
-          target="_blank"
-          href="https://github.com/gentleatif?tab=repositories"
+          rel='noreferrer'
+          target='_blank'
+          href='https://github.com/gentleatif?tab=repositories'
         >
-          <GitHubIcon />
+          <FaGithub />
         </a>
       </div>
 
       <div>
-        <a href="dd">
-          <FacebookIcon />
+        <a href='dd'>
+          <FaFacebook />
         </a>
       </div>
       <div>
-        <a href="dd">
-          <TwitterIcon />
+        <a href='dd'>
+          <FaTwitter />
         </a>
       </div>
     </div>
